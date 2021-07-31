@@ -4,8 +4,8 @@ The Project is a maven project contain automated tests written in Selenium Webdr
 Page Object model is used to design the tests
 Folder Structure:
 The tests are placed under the below directory structure src/test/java/tests
-The main test file is DateParserTest.java containing methods for each testcase.
-Page classes for each page file being tested in placed under src/test/java/pdgeObjects
+The main test file is TestCreateNewAccount.java containing methods for each testcase.
+Page classes for each page file being tested in placed under src/test/java/pageObjects
 A Helper class ActionsHelper with utility functions and methods for browser ui interaction is placed under src/test/java/helperClasses
 A listerner class ScreenshotListener is added to capture screenshots after test failure and add to the report. This can be found under src/test/java/resources
 
